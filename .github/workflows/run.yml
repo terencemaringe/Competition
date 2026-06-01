@@ -19,7 +19,7 @@ jobs:
         run: |
           pip install requests pyyaml beautifulsoup4 feedparser
 
-      - name: Run
+      - name: Newsletter_Charles
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
