@@ -23,7 +23,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python Newsletter_Charles.py
+          python Competition/.github/workflows/Newsletter_Charles.py
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
